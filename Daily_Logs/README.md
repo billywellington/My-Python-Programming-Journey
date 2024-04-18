@@ -1,6 +1,6 @@
 # Daily Logs
 
-Welcome to the Daily Logs folder!
+Welcome to my Daily Logs folder!
 
 This is where I keep track of my daily experiences, challenges, and progress during my Python learning journey. Each day, I'll jot down notes about what I've learned, any roadblocks I've encountered, and any insights I've gained.
 
