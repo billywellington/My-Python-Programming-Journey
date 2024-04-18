@@ -7,4 +7,4 @@ I don't just passively watch the videos; I always ensure that my PC is with me s
 Here's a breakdown of my progress through the video course:
 
 -   Day 1 (yesterday): I watched up to 25 minutes.
--   Day 2: 2 hours, 16 minutes, and 55 seconds.
+-   Day 2:  2:16:55
