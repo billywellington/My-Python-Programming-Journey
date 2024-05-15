@@ -1,0 +1,5 @@
+It's now the third week since I began my Python programming journey, and I've learned a great deal during this time.
+
+About a week ago, I resumed my Software Engineering course with ALX. While I acknowledge its importance, my primary goal is to become an AI Engineer. Unfortunately, the program mainly focuses on training full-stack web developers, which isn't aligned with my aspirations. However, I'm currently sticking with the program mainly for its valuable resources.
+
+Due to being significantly behind, I'm doing what I can at the moment and trying to catch up at my own pace.
