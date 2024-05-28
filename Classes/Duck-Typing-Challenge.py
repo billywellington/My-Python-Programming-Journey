@@ -10,5 +10,31 @@
 # Test your function with instances of Car, Bike, and Boat classes to ensure it works correctly.
 
 class Car:
-    def __init__(self, )
-    
+    def __init__(self, speed):
+        self.speed = speed
+
+class Bike:
+    def __init__(self, speed):
+        self.speed = speed
+
+
+class Boat:
+    def __init__(self, speed):
+        self.speed = speed
+
+
+list_of_speed = []
+
+def race():
+    list_of_speed.sort()
+    print("Winner of this race is:", list_of_speed[-1])
+
+car = Car(180)
+list_of_speed.append(car.speed)
+
+boat = Boat(200)
+list_of_speed.append(boat.speed)
+
+bike = Bike(360)
+list_of_speed.append(bike.speed)
+race()
