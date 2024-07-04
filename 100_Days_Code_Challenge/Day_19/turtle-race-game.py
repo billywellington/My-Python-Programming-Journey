@@ -40,6 +40,4 @@ while is_game_on:
             random_distance = random.randint(0, 10)
             turtle.forward(random_distance)
 
-
-
 screen.exitonclick()
