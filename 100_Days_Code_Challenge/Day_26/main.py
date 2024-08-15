@@ -10,11 +10,26 @@
 # new_names = [name.upper() for name in names if (len(name) > 5)]
 # print(new_names)
 
-students = ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"]
+# students = ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"]
+# import random
+
+# student_scores = {student:random.randint(50, 100) for student in students}
+# print(student_scores)
+
+# passed_students = {student:score for (student, score) in student_scores.items() if score > 70}
+# print(passed_students)
+
+#create a student dict withnames and scores
 import random
+student_dict = { 
+    "students": ["Alex", "Beth", "Caroline", "Dave", "Eleanor", "Freddie"],
+    "scores": [50, 60, 80, 70, 90, 100]
+}
+import pandas
 
-student_scores = {student:random.randint(50, 100) for student in students}
-print(student_scores)
+student_data_frame = pandas.DataFrame(student_dict)
+print(student_data_frame)
 
-passed_students = {student:score for (student, score) in student_scores.items() if score > 70}
-print(passed_students)
+for (index, row) in student_data_frame.iterrows():
+    if row.students == "Alex":
+        print(row.scores)
