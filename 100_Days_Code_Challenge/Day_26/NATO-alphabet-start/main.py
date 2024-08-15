@@ -32,6 +32,6 @@ nato_dict = {row.split(",")[0]: row.split(",")[1] for row in list}
 #TODO 2. Create a list of the phonetic code words from a word that the user inputs.
 word = input("Enter a word: ").upper()
 list = [nato_dict[letter] for letter in word]
-print(list)
+
 
 
